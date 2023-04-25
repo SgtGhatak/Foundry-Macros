@@ -13,4 +13,5 @@ Required modules:
 
 Sequencer animation:
 - explosion_and_delete
+
 ![explosion_and_delete](https://user-images.githubusercontent.com/30681313/234222808-27b0e847-bb5e-43da-acbf-dc68b90f2892.gif)
