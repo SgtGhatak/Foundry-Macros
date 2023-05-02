@@ -22,4 +22,4 @@ Sequencer animations:
 
 - fetid_fumes
 
-[fetid_fumes](https://imgur.com/gallery/Oel5Yzz)
+[fetid_fumes](https://imgur.com/a/Oel5Yzz)
