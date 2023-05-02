@@ -19,3 +19,7 @@ Sequencer animations:
 - ringing_bell
 
 ![ringing_bell](https://user-images.githubusercontent.com/30681313/235316138-5ce57460-eeb2-4f8f-aea9-ce9fac89716a.gif)
+
+- fetid_fumes
+
+https://imgur.com/a/Oel5Yzz
