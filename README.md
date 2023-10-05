@@ -23,3 +23,7 @@ Sequencer animations:
 - fetid_fumes
 
 [fetid_fumes](https://imgur.com/a/Oel5Yzz)
+
+- dialogue_box
+
+- ![Dialogue Box Demo](https://github.com/SgtGhatak/Foundry-Macros/assets/30681313/c0168d5d-5ad1-43b3-b003-79d38d99a86c)
