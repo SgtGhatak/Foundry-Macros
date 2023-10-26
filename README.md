@@ -28,6 +28,10 @@ Sequencer animations:
 
 ![run_off_and_delete](https://github.com/SgtGhatak/Foundry-Macros/assets/30681313/22886c83-6c9c-4003-90a9-4db5118bf5b1)
 
+- cannon_fire
+
+![cannon_fire](https://github.com/SgtGhatak/Foundry-Macros/assets/30681313/f7e64b69-28e1-4949-9893-385a92f8a39b)
+
 
 Misc:
 - show_art
