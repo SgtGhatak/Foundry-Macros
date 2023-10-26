@@ -1,3 +1,6 @@
+// Author: Sgt_Ghatak
+// Date: 2023-10-26
+
 const config = {
     size: 2,
     icon: 'systems/pf2e/icons/spells/triple-time.webp',

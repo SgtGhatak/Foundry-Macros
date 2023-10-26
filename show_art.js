@@ -1,3 +1,6 @@
+// Author: N/A
+// Date: N/A
+
 if (token === undefined) {
   ui.notifications.warn("Please select token first.");
 } else {

@@ -42,7 +42,7 @@ new Sequence()
 
     // Cannon sound effect
     .sound()
-        .file("modules/vilandris-resources/Audio/Sound%20Effects/cannon-fire.mp3")
+        .file("INSERT cannon-fire.mp3 FILE PATH HERE")
         .volume(0.1)
         .startTime(200)
 

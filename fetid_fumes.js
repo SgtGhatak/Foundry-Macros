@@ -1,3 +1,6 @@
+// Author: Sgt_Ghatak
+// Date: 2023-04-23
+
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }

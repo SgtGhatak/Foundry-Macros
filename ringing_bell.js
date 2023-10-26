@@ -1,5 +1,5 @@
-//Updated 2023/04/28
-//Author: Sgt_Ghatak
+// Author: Sgt_Ghatak
+// Date: 2023-04-23
 
 //ENTER YOUR BELL RINGING SOUND HERE, paste the file path of your sound file inbetween the quotation marks ("")
 bellRingingSound = "worlds/vilandris/music/Sound%20Effects/Hand%20bell%20ringing.mp3";

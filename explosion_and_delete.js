@@ -1,5 +1,5 @@
-//Updated: 2023/04/23
-//Author: Sgt_Ghatak
+// Author: Sgt_Ghatak
+// Date: 2023-04-23
 
 await new Sequence()
 

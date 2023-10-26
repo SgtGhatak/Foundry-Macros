@@ -1,18 +1,11 @@
 // Author: Sgt_Ghatak
 // Date: 2023-10-26
-//Sized for 1080p monitors
+// Sized for 1080p monitors
 
 Char1 = token.document.texture.src
 Box = "INSERT YOUR FILE PATH HERE"  //put the file location for the dialogue box image between the quoatation marks!
 Name = token.document.name
-Alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-
-RandomString = ""
-
-for (let i = 0; i < 21; i++) {
-    RandomIndex = Math.floor(Math.random() * 25)
-    RandomString = RandomString.concat(Alphabet[RandomIndex])
-}
+let Word = [];
 
 const Style = {
     "fill": "white",
@@ -23,9 +16,9 @@ const Style = {
 
 const Style2 = {
     "fill": "white",
-    "fontFamily": "Sacre",  //Font used for the dialogue text, change if required
+    "fontFamily": "Modesto Condensed Bold",  //Font used for the dialogue text, change if required
     "fontSize": 30,
-    "strokeThickness": 3,
+    "strokeThickness": 1,
     "wordWrap": true
 }
 
@@ -38,6 +31,22 @@ if(Tagger.hasTags(token, "Speaking")){
     Sequencer.EffectManager.endEffects({ name: "Dialogue"})
 
 } else {
+
+    let WordInput = await warpgate.menu({
+
+	inputs: [{
+			label: `What do you say?`,
+			type: 'text',
+	    options: ``
+	}],
+		buttons: [{
+			label: 'Say it!',
+			value: 1}]
+		},
+		{title: 'Dialogue'}
+	);
+    
+   Word = WordInput.inputs[0];
 
     Tagger.addTags(token, "Speaking")
 
@@ -88,15 +97,15 @@ if(Tagger.hasTags(token, "Speaking")){
 
         new Sequence()
             .effect()
-            .text(RandomString.charAt(i), Style2)
-            .name("Dialogue")
-            .screenSpace()
-            .screenSpaceAboveUI()
-            .screenSpacePosition({ x: -350 + 37*i, y: 320 })
-            .fadeIn(200)
-            .fadeOut(100)
-            .zIndex(2)
-            .persist()
+                .text(Word.charAt(i), Style2)
+                .name("Dialogue")
+                .screenSpace()
+                .screenSpaceAboveUI()
+                .screenSpacePosition({ x: -350 + 18*i, y: 320 })
+                .fadeIn(200)
+                .fadeOut(100)
+                .zIndex(2)
+                .persist()
 
             .play()
       
