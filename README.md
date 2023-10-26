@@ -24,7 +24,7 @@ Sequencer animations:
 
 ![Dialogue Box Demo](https://github.com/SgtGhatak/Foundry-Macros/assets/30681313/c0168d5d-5ad1-43b3-b003-79d38d99a86c)
 
-- run_ofF_and_delete
+- run_off_and_delete
 
 ![run_off_and_delete](https://github.com/SgtGhatak/Foundry-Macros/assets/30681313/22886c83-6c9c-4003-90a9-4db5118bf5b1)
 
