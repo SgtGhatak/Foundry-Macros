@@ -1,8 +1,8 @@
 # Foundry-Macros
-A collection of my macros created for the use in Foundry V10
+A collection of my macros created for the use in Foundry
 
 Required modules:
-- Foundry Core V10
+- Foundry Core
 - JB2A Patreon Complete Collection
 - Jack Kerouac's Animated Spell Effects: Cartoon
 - Sequencer
@@ -23,3 +23,10 @@ Sequencer animations:
 - dialogue_box
 
 ![Dialogue Box Demo](https://github.com/SgtGhatak/Foundry-Macros/assets/30681313/c0168d5d-5ad1-43b3-b003-79d38d99a86c)
+
+Misc:
+- show_art
+
+![Show Art Macro](https://github.com/SgtGhatak/Foundry-Macros/assets/30681313/0407e040-5064-4263-8e86-5d6d23fe41cf)
+
+
